@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinnerOfferedSkill" type="id" />
+    <item name="spinnerWantedSkill" type="id" />
+    <item name="etMessage" type="id" />
+    <item name="btnSubmitRequest" type="id" />
+</resources>

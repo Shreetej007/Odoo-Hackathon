@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/blueeee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/skillspngggggg" />
+
+        <!-- Dropdown: Your Offered Skill -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your offered skill"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"/>
+
+
+
+        <Spinner
+            android:id="@+id/spinnerOfferedSkill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Dropdown: Their Wanted Skill -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select their wanted skill"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+        <Spinner
+            android:id="@+id/spinnerWantedSkill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Message Input -->
+        <EditText
+            android:backgroundTint="@color/blueeee"
+            android:id="@+id/etMessage"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Write your message here..."
+            android:gravity="top"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/edit_text"
+            android:padding="12dp"
+            android:inputType="textMultiLine" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmitRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Request"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</ScrollView>
